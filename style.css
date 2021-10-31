@@ -3,18 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-label {
-  display: block;
-}
-.name-fields-container {
-  display: flex;
-}
 th,
 td {
   text-align: center;
 }
+td:first-child,
+span {
+  font-size: 12px;
+  font-style: italic;
+}
 td:first-child {
   text-align: start;
+  width: 120px;
 }
 .outer-container {
   margin: 0 auto;
@@ -26,7 +26,4 @@ td:first-child {
 }
 .stars-container {
   color: gold;
-}
-span {
-  font-size: 12px;
 }
